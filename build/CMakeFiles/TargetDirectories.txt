@@ -1,0 +1,13 @@
+C:/Work/learnC/build/CMakeFiles/test.dir
+C:/Work/learnC/build/CMakeFiles/edit_cache.dir
+C:/Work/learnC/build/CMakeFiles/rebuild_cache.dir
+C:/Work/learnC/build/include/CMakeFiles/test.dir
+C:/Work/learnC/build/include/CMakeFiles/edit_cache.dir
+C:/Work/learnC/build/include/CMakeFiles/rebuild_cache.dir
+C:/Work/learnC/build/src/CMakeFiles/main_build.dir
+C:/Work/learnC/build/src/CMakeFiles/test.dir
+C:/Work/learnC/build/src/CMakeFiles/edit_cache.dir
+C:/Work/learnC/build/src/CMakeFiles/rebuild_cache.dir
+C:/Work/learnC/build/tests/CMakeFiles/test.dir
+C:/Work/learnC/build/tests/CMakeFiles/edit_cache.dir
+C:/Work/learnC/build/tests/CMakeFiles/rebuild_cache.dir

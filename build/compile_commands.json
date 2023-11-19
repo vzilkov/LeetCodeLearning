@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Work/learnC/build/src",
+  "command": "C:\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\main_build.dir\\main.c.obj -c C:\\Work\\learnC\\src\\main.c",
+  "file": "C:/Work/learnC/src/main.c",
+  "output": "src/CMakeFiles/main_build.dir/main.c.obj"
+}
+]
