@@ -68,6 +68,5 @@ void two_sum_pointer_cursors_func(int *nums, int numLen, int target){
         cycle_cnt++;
         // int nums[] = {2,7,11,15};
         // target = 9
-        
     }
 }
