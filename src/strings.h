@@ -1,0 +1,1 @@
+int backspaceCompare(char* s, char* t);
