@@ -59,6 +59,20 @@ void main(){
     char s[] = "aaa###a";
     char t[] = "aaaa###a";
     result = backspaceCompare(s, t);
+
+    int cost[] = {10,15,20};
+
+    // result = minCostClimbingStairs(cost, sizeof(cost)/sizeof(*cost));
+
+    int cost1[] = {1,100,1,1,1,100,1,1,100,1};
+    result = minCostClimbingStairs(cost1, sizeof(cost1)/sizeof(*cost1));
+
+    int cost2[] = {1,100,1,1,1,100,1,1,100,1};
+    result = minCostClimbingStairs(cost2, sizeof(cost2)/sizeof(*cost2));
+
+    int nums[] = {3,1,2,4};
+    int *returnSize;
+    result = sortArrayByParity(nums, sizeof(nums)/sizeof(*nums), returnSize);
 }
 
 char* rec(char *val){
