@@ -8,6 +8,9 @@
 #include "search_alg.h"
 #include "stack_training.h"
 #include "strings.h"
+#include "sorts.h"
+#include "array_training.h"
+#include "lists.h"
 
 struct ListNode_t {
      int val;
@@ -73,6 +76,22 @@ void main(){
     int nums[] = {3,1,2,4};
     int *returnSize;
     result = sortArrayByParity(nums, sizeof(nums)/sizeof(*nums), returnSize);
+
+    missingNumber();
+
+    int buf_arr[] =  {0,0,0,0,1,3,0,5,0,15,2};
+    int buf_arr1[] = {0,0,0,0,1,3,0,5,0,15,2};
+    int buf_arr_len = sizeof(buf_arr)/sizeof(*buf_arr);
+    // lomuto_alg(buf_arr, sizeof(buf_arr)/sizeof(*buf_arr));
+
+    // sort_alg_bubles(buf_arr, buf_arr_len);
+    sort_alg_lomuto(buf_arr, buf_arr_len);
+    sort_dyn_impl(buf_arr1, buf_arr_len);
+
+    d2_arr();
+    majorityElement();
+
+    lists_main();
 }
 
 char* rec(char *val){
