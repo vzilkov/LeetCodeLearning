@@ -132,11 +132,16 @@ void print_tree(node_t* tree, int* return_arr){
         print_tree(tree->left, return_arr);
         print_tree(tree->right, return_arr);
         
-        printf("\nTree val = %d", tree->val);
+        // printf("\nTree val = %d", tree->val);
         *(return_arr+ counter) = tree->val;
         counter++;
     }
 }
+
+ typedef struct val_compare_{
+     int val_in_nums;
+     int quantity_in_nums;
+ }val_comp;
 
 // nums = [3,1,2,4]
 int sortArrayByParity(int* nums, int numsSize, int* returnSize) {
@@ -153,5 +158,10 @@ int sortArrayByParity(int* nums, int numsSize, int* returnSize) {
     for(int i=0; i<numsSize; i++){
         printf("%d ", *(return_arr+i));
     }
+    printf("\n");
+
     return 0;
 }
+
+
+
